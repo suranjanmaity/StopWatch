@@ -45,9 +45,9 @@ main{
     width: 60%;
     min-height: 20%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     justify-content: space-between;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding: 0 .5rem;
     align-items: center;
     border-radius: 1rem;
@@ -60,7 +60,7 @@ main{
     font-family: cursive;
 }
 ol{
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 .7rem;
     margin : 0;
     border-radius: 1rem;
 }
