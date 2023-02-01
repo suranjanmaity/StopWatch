@@ -1,11 +1,14 @@
+*{
+    transition: 1s ease-in-out;
+    /* border: 2px solid red; */
+}
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
-    background: linear-gradient(#ccf281,#4832d5);
+    /* background: linear-gradient(#ccf281,#4832d5); */
     background: linear-gradient(#01539d,#eea47f);
 }
 main{
@@ -20,17 +23,47 @@ main{
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .time{
     /* border: 2px solid blue; */
+    background: #eea47f;
+    color : #fff;
     width: 80%;
+    height: 2rem;
     border-radius: 1rem;
     padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.lap{
+    width: 50%;
+    min-height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: cornflowerblue;
+    color: white;
+}
+.lap span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+ol{
+    padding: 0 3rem;
+    margin : 0;
+    border-radius: 1rem;
+}
+li{
+    /* list-style-type: none; */
 }
 .controls{
     /* border: 2px solid greenyellow; */
@@ -43,10 +76,11 @@ main{
 .controls button{
     color: whitesmoke;
     background-color: orangered;
-    /* border: none; */
+    border: none;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
+    font-size: .8rem;
 }
 
 #start{
@@ -69,7 +103,7 @@ main{
 }
 
 #lap:hover{
-    background-color: green;
+    background-color: #01539d;
 }
 
 #reset{
