@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background: linear-gradient(#ccf281,#4832d5);
+    background: linear-gradient(#01539d,#eea47f);
+}
+main{
+    background-color: rgba(240, 250, 255, 0.61);
+    box-shadow: whitesmoke 0 0 30px;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    width: 50vw;
+    height: 40vh;
+    max-width: 30rem;
+    min-width: 15rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    /* border: 2px solid blue; */
+    width: 80%;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    /* border: 2px solid greenyellow; */
+    border-radius: 1rem;
+    width: 80%;
+    display: flex;;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+.controls button{
+    color: whitesmoke;
+    background-color: orangered;
+    /* border: none; */
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#start{
+    background-color: gray;
+}
+#start:hover{
+    color: greenyellow;
+    background-color: black;
+}
+
+#pause:hover{
+    background-color: red;
+}
+
+#resume{
+    background-color: red;
+}
+#resume:hover{
+    background-color: orangered;
+}
+
+#lap:hover{
+    background-color: green;
+}
+
+#reset{
+    background-color: grey;
+}
+#reset:hover{
+    color: red;
+    background-color: black;
+}
