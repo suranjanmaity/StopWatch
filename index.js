@@ -83,9 +83,7 @@ reset.addEventListener("click",()=>{
     sec=0;
     mils=0;
     clearInterval(timeCount);
-    time.innerHTML=`
-    ${hr}:${min}:${sec}:${mils}
-    `;
+    time.innerHTML=``;
     ul.innerHTML = ``;
     count = 0;
     lapList.style.display = 'none';
